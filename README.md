@@ -9,18 +9,18 @@ Installation
 Add to the composer.json file following section:
 
 ```
-php composer.phar require --prefer-dist marciocamello/yii2-paypal "*"
+php composer.phar require --prefer-dist inquid/yii2-paypal "*"
 ```
 
 ```
-"marciocamello/yii2-paypal": "dev-master"
+"inquid/yii2-paypal": "dev-master"
 ```
 
 Add to to you Yii2 config file this part with component settings:
 
 ```php
 'paypal'=> [
-    'class'        => 'marciocamello\Paypal',
+    'class'        => 'inquid\Paypal',
     'clientId'     => 'you_client_id',
     'clientSecret' => 'you_client_secret',
     'isProduction' => false,
