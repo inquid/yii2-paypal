@@ -7,7 +7,7 @@
  * @see https://github.com/paypal/rest-api-sdk-php/blob/master/sample/
  * @see https://developer.paypal.com/webapps/developer/applications/accounts
  */
-namespace common\components;
+namespace inquid\yii2-paypal;
 
 use Exception;
 use PayPal\Api\PaymentExecution;
